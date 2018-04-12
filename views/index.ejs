@@ -1,0 +1,14 @@
+<h3>Add task</h3>
+
+<form action="/tasks/add">
+  <input type="text" name="task" placeholder="Add task.">
+  <input type="submit" value="Submit">
+</form>
+
+<%= title %>
+
+<ul>
+  <% tasks.forEach((task) => { %>
+    <li><%= tasks %></li>
+  <% }) %>
+</ul>
